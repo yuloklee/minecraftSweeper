@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.Clip;
@@ -56,7 +54,6 @@ public class Minesweeper {
     
     public static void main(String[] args) {
         Minesweeper game = new Minesweeper();
-        
              
     }
     
@@ -256,7 +253,6 @@ public class Minesweeper {
         mainFrame.pack();
         mainFrame.setVisible(true);
 
-        printGrid(grid);
     }
     
     //checks if position is in range of grid

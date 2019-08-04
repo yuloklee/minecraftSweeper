@@ -38,7 +38,6 @@ public class MouseHandler implements MouseListener{
         else if (b.flagged == false){
            b.reveal();
            if (b.value == -1){
-               System.out.println("lose");
                ms.loseGame();
                ms.lostGame = true;   
            }

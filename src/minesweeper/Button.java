@@ -65,7 +65,6 @@ public class Button extends JButton {
                     ms.inPlay = false;
                     ms.timerEnabled = false;
                     ms.winGame();
-                    System.out.println("win");
                 }
             }
         }

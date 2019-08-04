@@ -1,4 +1,4 @@
-package minesweeper;
+    package minesweeper;
 
 import java.util.*;
 import java.io.*;
@@ -17,7 +17,7 @@ public class Highscore{
         
         try
         {   //creating the buffered reader/writer for the scores text file
-            scores = new File("C:\\Users\\Joshua\\Documents\\minesweeper\\src\\minesweeper\\scores.txt");
+            scores = new File("scores.txt");
             fw = new BufferedWriter(new FileWriter(scores, true));
             fr = new BufferedReader(new FileReader(scores));
         }
