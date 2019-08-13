@@ -3,11 +3,10 @@ A Minecraft themed Minesweeper clone made in Java based on the original Windows 
 
 ![alt text](https://i.imgur.com/7XtF9fd.png)
 
-## To be added
+## Planned updates
 * Chording 
 * Music and Click Sounds
 * Interchangable themes
-* 
 
 ## Build Instructions
 
