@@ -44,13 +44,13 @@ public class Minesweeper {
     String difficulty = "Easy";
     Highscore hs;
 
-    ImageIcon FLAG = new ImageIcon("Assets/FLAG.png");
-    ImageIcon MINE = new ImageIcon("Assets/MINE.png");
-    ImageIcon TILE = new ImageIcon("Assets/TILE.png");
-    ImageIcon PICK = new ImageIcon("Assets/PICK.png");
-    ImageIcon SHOV = new ImageIcon("Assets/SHOV.png");
-    ImageIcon STONE = new ImageIcon("Assets/STONE.png");
-    ImageIcon CREEPER = new ImageIcon("Assets/CREEPER.jpg");
+    ImageIcon FLAG = new ImageIcon("src\\minesweeper\\Assets\\FLAG.png");
+    ImageIcon MINE = new ImageIcon("src\\minesweeper\\Assets\\MINE.png");
+    ImageIcon TILE = new ImageIcon("src\\minesweeper\\Assets\\TILE.png");
+    ImageIcon PICK = new ImageIcon("src\\minesweeper\\Assets\\PICK.png");
+    ImageIcon SHOV = new ImageIcon("src\\minesweeper\\Assets\\SHOV.png");
+    ImageIcon STONE = new ImageIcon("src\\minesweeper\\Assets\\STONE.png");
+    ImageIcon CREEPER = new ImageIcon("src\\minesweeper\\Assets\\CREEPER.jpg");
     
     public static void main(String[] args) {
         Minesweeper game = new Minesweeper();
