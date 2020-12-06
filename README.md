@@ -1,4 +1,4 @@
-# minecraftSweeper
+# Mine(craft) Sweeper
 A Minecraft themed Minesweeper clone made in Java based on the original Windows Minesweeper.
 
 ![alt text](https://i.imgur.com/7XtF9fd.png)
